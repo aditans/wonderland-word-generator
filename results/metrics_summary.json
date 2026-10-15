@@ -1,0 +1,50 @@
+[
+  {
+    "model_name": "Simple RNN",
+    "parameters": 409658,
+    "total_training_time_sec": 21.39,
+    "avg_epoch_time_sec": 2.14,
+    "final_train_loss": 3.1073,
+    "final_val_loss": 5.1427,
+    "final_train_acc": 30.42,
+    "final_val_acc": 14.03,
+    "final_train_ppl": 22.36,
+    "final_val_ppl": 171.18
+  },
+  {
+    "model_name": "Bidirectional RNN",
+    "parameters": 401466,
+    "total_training_time_sec": 23.91,
+    "avg_epoch_time_sec": 2.39,
+    "final_train_loss": 2.5066,
+    "final_val_loss": 5.4144,
+    "final_train_acc": 41.9,
+    "final_val_acc": 13.27,
+    "final_train_ppl": 12.26,
+    "final_val_ppl": 224.61
+  },
+  {
+    "model_name": "LSTM",
+    "parameters": 508346,
+    "total_training_time_sec": 32.08,
+    "avg_epoch_time_sec": 3.21,
+    "final_train_loss": 3.133,
+    "final_val_loss": 4.9833,
+    "final_train_acc": 30.89,
+    "final_val_acc": 14.89,
+    "final_train_ppl": 22.94,
+    "final_val_ppl": 145.96
+  },
+  {
+    "model_name": "GRU",
+    "parameters": 475834,
+    "total_training_time_sec": 35.55,
+    "avg_epoch_time_sec": 3.56,
+    "final_train_loss": 2.1242,
+    "final_val_loss": 5.3038,
+    "final_train_acc": 49.28,
+    "final_val_acc": 14.6,
+    "final_train_ppl": 8.37,
+    "final_val_ppl": 201.1
+  }
+]

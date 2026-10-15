@@ -1,0 +1,5 @@
+model_name,parameters,total_training_time_sec,avg_epoch_time_sec,final_train_loss,final_val_loss,final_train_acc,final_val_acc,final_train_ppl,final_val_ppl
+Simple RNN,409658,21.39,2.14,3.1073,5.1427,30.42,14.03,22.36,171.18
+Bidirectional RNN,401466,23.91,2.39,2.5066,5.4144,41.9,13.27,12.26,224.61
+LSTM,508346,32.08,3.21,3.133,4.9833,30.89,14.89,22.94,145.96
+GRU,475834,35.55,3.56,2.1242,5.3038,49.28,14.6,8.37,201.1

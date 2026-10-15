@@ -1,0 +1,54 @@
+{
+  "dataset_name": "Alice's Adventures in Wonderland",
+  "author": "Lewis Carroll",
+  "source_url": "https://www.gutenberg.org/ebooks/11",
+  "raw_character_count": 167712,
+  "narrative_character_count": 147978,
+  "total_tokens": 27175,
+  "unique_raw_tokens": 2567,
+  "vocab_size": 1466,
+  "seq_length": 5,
+  "total_sequences": 27170,
+  "top_10_words": [
+    [
+      "the",
+      1651
+    ],
+    [
+      "and",
+      873
+    ],
+    [
+      "to",
+      729
+    ],
+    [
+      "a",
+      637
+    ],
+    [
+      "it",
+      592
+    ],
+    [
+      "she",
+      549
+    ],
+    [
+      "i",
+      524
+    ],
+    [
+      "of",
+      515
+    ],
+    [
+      "said",
+      460
+    ],
+    [
+      "alice",
+      398
+    ]
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "Simple RNN": {
+    "0.5": [
+      {
+        "seed": "alice was beginning to get",
+        "temperature": 0.5,
+        "generated_continuation": "in her foot with the time she went on then the panther took the march hare said the caterpillar said",
+        "full_passage": "alice was beginning to get in her foot with the time she went on then the panther took the march hare said the caterpillar said",
+        "diversity": 0.8,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the cat only grinned when",
+        "temperature": 0.5,
+        "generated_continuation": "she said the hatter i want to be rude the tea so she tried at the gryphon the hatter said",
+        "full_passage": "the cat only grinned when she said the hatter i want to be rude the tea so she tried at the gryphon the hatter said",
+        "diversity": 0.7,
+        "repetition_rate": 0.053
+      },
+      {
+        "seed": "down the rabbit hole went",
+        "temperature": 0.5,
+        "generated_continuation": "on alice i hope it s wrong replied not a caucus race how well as he could not the door",
+        "full_passage": "down the rabbit hole went on alice i hope it s wrong replied not a caucus race how well as he could not the door",
+        "diversity": 0.95,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the hatter opened his eyes",
+        "temperature": 0.5,
+        "generated_continuation": "to break the rabbit s argument was a large label a lobster the most little thing said the hatter and",
+        "full_passage": "the hatter opened his eyes to break the rabbit s argument was a large label a lobster the most little thing said the hatter and",
+        "diversity": 0.85,
+        "repetition_rate": 0.0
+      }
+    ],
+    "0.8": [
+      {
+        "seed": "alice was beginning to get",
+        "temperature": 0.8,
+        "generated_continuation": "into a while the mouse was an small shaking a little glass party what never said the hatter and the",
+        "full_passage": "alice was beginning to get into a while the mouse was an small shaking a little glass party what never said the hatter and the",
+        "diversity": 0.85,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the cat only grinned when",
+        "temperature": 0.8,
+        "generated_continuation": "the whole thing said alice she thought alice i do said the tea minute voice dear dear i dare alice",
+        "full_passage": "the cat only grinned when the whole thing said alice she thought alice i do said the tea minute voice dear dear i dare alice",
+        "diversity": 0.7,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "down the rabbit hole went",
+        "temperature": 0.8,
+        "generated_continuation": "on without a march hare said alice must a large deal off the gryphon where he had nothing said this",
+        "full_passage": "down the rabbit hole went on without a march hare said alice must a large deal off the gryphon where he had nothing said this",
+        "diversity": 0.9,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the hatter opened his eyes",
+        "temperature": 0.8,
+        "generated_continuation": "shaking it s first s the rest of the table just that a hatter comes to hear his eyes or",
+        "full_passage": "the hatter opened his eyes shaking it s first s the rest of the table just that a hatter comes to hear his eyes or",
+        "diversity": 0.9,
+        "repetition_rate": 0.0
+      }
+    ],
+    "1.2": [
+      {
+        "seed": "alice was beginning to get",
+        "temperature": 1.2,
+        "generated_continuation": "in out in his head nor said the king made from the baby with great should speak do else to",
+        "full_passage": "alice was beginning to get in out in his head nor said the king made from the baby with great should speak do else to",
+        "diversity": 0.9,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the cat only grinned when",
+        "temperature": 1.2,
+        "generated_continuation": "she was moving late to speak been when they were of salt clear size for her mouth finding sneezing they",
+        "full_passage": "the cat only grinned when she was moving late to speak been when they were of salt clear size for her mouth finding sneezing they",
+        "diversity": 0.95,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "down the rabbit hole went",
+        "temperature": 1.2,
+        "generated_continuation": "on the hatter worse what the mock turtle the hatter question their mouths and bats you know just another peeped",
+        "full_passage": "down the rabbit hole went on the hatter worse what the mock turtle the hatter question their mouths and bats you know just another peeped",
+        "diversity": 0.85,
+        "repetition_rate": 0.053
+      },
+      {
+        "seed": "the hatter opened his eyes",
+        "temperature": 1.2,
+        "generated_continuation": "turned looking i shall there s checked tears picked its fallen out of any by that she was beginning to",
+        "full_passage": "the hatter opened his eyes turned looking i shall there s checked tears picked its fallen out of any by that she was beginning to",
+        "diversity": 1.0,
+        "repetition_rate": 0.0
+      }
+    ]
+  },
+  "Bidirectional RNN": {
+    "0.5": [
+      {
+        "seed": "alice was beginning to get",
+        "temperature": 0.5,
+        "generated_continuation": "them without move she said alice a hoarse timidly off it was like a large way down down on the",
+        "full_passage": "alice was beginning to get them without move she said alice a hoarse timidly off it was like a large way down down on the",
+        "diversity": 0.9,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the cat only grinned when",
+        "temperature": 0.5,
+        "generated_continuation": "i shouldn t like that you re not said alice i ve seen a curious thing i ve seen it",
+        "full_passage": "the cat only grinned when i shouldn t like that you re not said alice i ve seen a curious thing i ve seen it",
+        "diversity": 0.8,
+        "repetition_rate": 0.105
+      },
+      {
+        "seed": "down the rabbit hole went",
+        "temperature": 0.5,
+        "generated_continuation": "on and the king and <UNK> said the king and the hatter hurriedly went on to herself i ve got",
+        "full_passage": "down the rabbit hole went on and the king and <UNK> said the king and the hatter hurriedly went on to herself i ve got",
+        "diversity": 0.7,
+        "repetition_rate": 0.158
+      },
+      {
+        "seed": "the hatter opened his eyes",
+        "temperature": 0.5,
+        "generated_continuation": "and that they made him together alice was so much as it was perfectly from she had to get to",
+        "full_passage": "the hatter opened his eyes and that they made him together alice was so much as it was perfectly from she had to get to",
+        "diversity": 0.9,
+        "repetition_rate": 0.0
+      }
+    ],
+    "0.8": [
+      {
+        "seed": "alice was beginning to get",
+        "temperature": 0.8,
+        "generated_continuation": "her why i ll stay with you can t have your notion to the queen the young lady so if",
+        "full_passage": "alice was beginning to get her why i ll stay with you can t have your notion to the queen the young lady so if",
+        "diversity": 0.95,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the cat only grinned when",
+        "temperature": 0.8,
+        "generated_continuation": "i ve got to herself how she was so much what have made it to be to me screamed alice",
+        "full_passage": "the cat only grinned when i ve got to herself how she was so much what have made it to be to me screamed alice",
+        "diversity": 0.9,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "down the rabbit hole went",
+        "temperature": 0.8,
+        "generated_continuation": "on at last the hedgehog took people repeat the little words and a caucus little thing said the caterpillar alice",
+        "full_passage": "down the rabbit hole went on at last the hedgehog took people repeat the little words and a caucus little thing said the caterpillar alice",
+        "diversity": 0.85,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the hatter opened his eyes",
+        "temperature": 0.8,
+        "generated_continuation": "and looked at her at last the hatter now wrote jumping to her two i beg your pardon cried alice",
+        "full_passage": "the hatter opened his eyes and looked at her at last the hatter now wrote jumping to her two i beg your pardon cried alice",
+        "diversity": 0.9,
+        "repetition_rate": 0.0
+      }
+    ],
+    "1.2": [
+      {
+        "seed": "alice was beginning to get",
+        "temperature": 1.2,
+        "generated_continuation": "alice exclaimed in an offended tone s the timid and said come half why what s your name bill say",
+        "full_passage": "alice was beginning to get alice exclaimed in an offended tone s the timid and said come half why what s your name bill say",
+        "diversity": 0.95,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the cat only grinned when",
+        "temperature": 1.2,
+        "generated_continuation": "nothing listen to me a likely while while the queen in into a little little golden seemed off who i",
+        "full_passage": "the cat only grinned when nothing listen to me a likely while while the queen in into a little little golden seemed off who i",
+        "diversity": 0.85,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "down the rabbit hole went",
+        "temperature": 1.2,
+        "generated_continuation": "alice sh off to work shaking barrowful still so to play perhaps i surprise i dear it how to you",
+        "full_passage": "down the rabbit hole went alice sh off to work shaking barrowful still so to play perhaps i surprise i dear it how to you",
+        "diversity": 0.85,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the hatter opened his eyes",
+        "temperature": 1.2,
+        "generated_continuation": "to many uncomfortable into five and a candle of violent <UNK> shorter the times alice keeping so good lasted this",
+        "full_passage": "the hatter opened his eyes to many uncomfortable into five and a candle of violent <UNK> shorter the times alice keeping so good lasted this",
+        "diversity": 1.0,
+        "repetition_rate": 0.0
+      }
+    ]
+  },
+  "LSTM": {
+    "0.5": [
+      {
+        "seed": "alice was beginning to get",
+        "temperature": 0.5,
+        "generated_continuation": "out of the sea of the queen s argument was a serpent i m mad you know to sing perhaps",
+        "full_passage": "alice was beginning to get out of the sea of the queen s argument was a serpent i m mad you know to sing perhaps",
+        "diversity": 0.9,
+        "repetition_rate": 0.053
+      },
+      {
+        "seed": "the cat only grinned when",
+        "temperature": 0.5,
+        "generated_continuation": "they ve got to see it in a telescope of a minute or two and the other side will you",
+        "full_passage": "the cat only grinned when they ve got to see it in a telescope of a minute or two and the other side will you",
+        "diversity": 0.95,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "down the rabbit hole went",
+        "temperature": 0.5,
+        "generated_continuation": "on to sea but that it s not a trial written manner instantly but he put down the dormouse and",
+        "full_passage": "down the rabbit hole went on to sea but that it s not a trial written manner instantly but he put down the dormouse and",
+        "diversity": 0.95,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the hatter opened his eyes",
+        "temperature": 0.5,
+        "generated_continuation": "folded frowning and talking at all said the gryphon turn a sorrowful tone said the hatter and the caterpillar hastily",
+        "full_passage": "the hatter opened his eyes folded frowning and talking at all said the gryphon turn a sorrowful tone said the hatter and the caterpillar hastily",
+        "diversity": 0.8,
+        "repetition_rate": 0.053
+      }
+    ],
+    "0.8": [
+      {
+        "seed": "alice was beginning to get",
+        "temperature": 0.8,
+        "generated_continuation": "them to alice and that i never heard something from that he had having taken first she walked off and",
+        "full_passage": "alice was beginning to get them to alice and that i never heard something from that he had having taken first she walked off and",
+        "diversity": 0.9,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the cat only grinned when",
+        "temperature": 0.8,
+        "generated_continuation": "you shouldn t know what said the mock turtle a little race and had peeped off the other side of",
+        "full_passage": "the cat only grinned when you shouldn t know what said the mock turtle a little race and had peeped off the other side of",
+        "diversity": 0.95,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "down the rabbit hole went",
+        "temperature": 0.8,
+        "generated_continuation": "on to the way it went on i ve seen the pepper mine a viii had the duchess took rather",
+        "full_passage": "down the rabbit hole went on to the way it went on i ve seen the pepper mine a viii had the duchess took rather",
+        "diversity": 0.85,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the hatter opened his eyes",
+        "temperature": 0.8,
+        "generated_continuation": "and then then you think of course would all said the caterpillar well don t know what you know but",
+        "full_passage": "the hatter opened his eyes and then then you think of course would all said the caterpillar well don t know what you know but",
+        "diversity": 0.85,
+        "repetition_rate": 0.0
+      }
+    ],
+    "1.2": [
+      {
+        "seed": "alice was beginning to get",
+        "temperature": 1.2,
+        "generated_continuation": "to herself in a mouse altogether look your ann said the dormouse either upon he as so she soon made",
+        "full_passage": "alice was beginning to get to herself in a mouse altogether look your ann said the dormouse either upon he as so she soon made",
+        "diversity": 1.0,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the cat only grinned when",
+        "temperature": 1.2,
+        "generated_continuation": "i giving you know it was as he went on to swim and then alice tiptoe she looked settled near",
+        "full_passage": "the cat only grinned when i giving you know it was as he went on to swim and then alice tiptoe she looked settled near",
+        "diversity": 1.0,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "down the rabbit hole went",
+        "temperature": 1.2,
+        "generated_continuation": "until it was bill busily times does alice goes to see her make or little seven said in a different",
+        "full_passage": "down the rabbit hole went until it was bill busily times does alice goes to see her make or little seven said in a different",
+        "diversity": 1.0,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the hatter opened his eyes",
+        "temperature": 1.2,
+        "generated_continuation": "end and his head i drive of school in their proper glass where get not ma him thank you join",
+        "full_passage": "the hatter opened his eyes end and his head i drive of school in their proper glass where get not ma him thank you join",
+        "diversity": 1.0,
+        "repetition_rate": 0.0
+      }
+    ]
+  },
+  "GRU": {
+    "0.5": [
+      {
+        "seed": "alice was beginning to get",
+        "temperature": 0.5,
+        "generated_continuation": "but she went on saying to herself what a curious plan exclaimed alice i can t be civil of it",
+        "full_passage": "alice was beginning to get but she went on saying to herself what a curious plan exclaimed alice i can t be civil of it",
+        "diversity": 1.0,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the cat only grinned when",
+        "temperature": 0.5,
+        "generated_continuation": "it s hardly room to grow up at any rate a knot said alice i ve seen such as she",
+        "full_passage": "the cat only grinned when it s hardly room to grow up at any rate a knot said alice i ve seen such as she",
+        "diversity": 1.0,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "down the rabbit hole went",
+        "temperature": 0.5,
+        "generated_continuation": "on without dear i like i don t know what a caucus race i must be a person of course",
+        "full_passage": "down the rabbit hole went on without dear i like i don t know what a caucus race i must be a person of course",
+        "diversity": 0.85,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the hatter opened his eyes",
+        "temperature": 0.5,
+        "generated_continuation": "brightened up at the mouse with a shrill <UNK> of the way to happen it was saying to herself not",
+        "full_passage": "the hatter opened his eyes brightened up at the mouse with a shrill <UNK> of the way to happen it was saying to herself not",
+        "diversity": 0.9,
+        "repetition_rate": 0.0
+      }
+    ],
+    "0.8": [
+      {
+        "seed": "alice was beginning to get",
+        "temperature": 0.8,
+        "generated_continuation": "in a bottle did not think about at this was generally said the march hare i ve got to say",
+        "full_passage": "alice was beginning to get in a bottle did not think about at this was generally said the march hare i ve got to say",
+        "diversity": 1.0,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the cat only grinned when",
+        "temperature": 0.8,
+        "generated_continuation": "i was so much different these but she could not quite gone to do you ll stay with me they",
+        "full_passage": "the cat only grinned when i was so much different these but she could not quite gone to do you ll stay with me they",
+        "diversity": 1.0,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "down the rabbit hole went",
+        "temperature": 0.8,
+        "generated_continuation": "to see said alice and this that tis the jury the birds was sneezing and the little door that the",
+        "full_passage": "down the rabbit hole went to see said alice and this that tis the jury the birds was sneezing and the little door that the",
+        "diversity": 0.75,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the hatter opened his eyes",
+        "temperature": 0.8,
+        "generated_continuation": "brightened down at her as they were such confusion when i see is that the hatter came made the gryphon",
+        "full_passage": "the hatter opened his eyes brightened down at her as they were such confusion when i see is that the hatter came made the gryphon",
+        "diversity": 0.95,
+        "repetition_rate": 0.0
+      }
+    ],
+    "1.2": [
+      {
+        "seed": "alice was beginning to get",
+        "temperature": 1.2,
+        "generated_continuation": "to everything to be person i am said the hatter now why which is two said alice kind to the",
+        "full_passage": "alice was beginning to get to everything to be person i am said the hatter now why which is two said alice kind to the",
+        "diversity": 0.8,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "the cat only grinned when",
+        "temperature": 1.2,
+        "generated_continuation": "a little little thing as soon so that that s hardly enough what is that they were nowhere to be",
+        "full_passage": "the cat only grinned when a little little thing as soon so that that s hardly enough what is that they were nowhere to be",
+        "diversity": 0.85,
+        "repetition_rate": 0.0
+      },
+      {
+        "seed": "down the rabbit hole went",
+        "temperature": 1.2,
+        "generated_continuation": "isn t dull you know the hatter continued as i m certain cried the hatter you know stand t believe",
+        "full_passage": "down the rabbit hole went isn t dull you know the hatter continued as i m certain cried the hatter you know stand t believe",
+        "diversity": 0.75,
+        "repetition_rate": 0.105
+      },
+      {
+        "seed": "the hatter opened his eyes",
+        "temperature": 1.2,
+        "generated_continuation": "were nearly anxiously full of the day far yesterday but at any rate turn at this however the first creatures",
+        "full_passage": "the hatter opened his eyes were nearly anxiously full of the day far yesterday but at any rate turn at this however the first creatures",
+        "diversity": 0.9,
+        "repetition_rate": 0.0
+      }
+    ]
+  }
+}
